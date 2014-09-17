@@ -2,6 +2,8 @@
 menu:
   Home: /
   Archives: /archives
+  Portfolio: /portfolio
+  About: /about
 rss: /atom.xml
 
 # Content
@@ -16,7 +18,7 @@ widgets:
 - tagcloud
 - archive
 - recent_posts
-- links
+#- links
 
 # Links
 links:
@@ -30,7 +32,7 @@ links:
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
-twitter:
+twitter: liugen7
 google_plus:
 fb_admins: 
 fb_app_id:
@@ -39,4 +41,4 @@ fb_app_id:
 duoshuo_shortname: 
 
 # Baidu share
-baidushare: true
+baidushare: false

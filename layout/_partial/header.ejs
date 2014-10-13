@@ -22,6 +22,12 @@
         <% if (theme.rss){ %>
           <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="RSS Feed"></a>
         <% } %>
+        <% if (theme.twitter){ %>
+          <a id="nav-twitter-link" class="nav-icon" href="https://twitter.com/<%- theme.twitter %>" title="Twitter" target="_blank"></a>
+        <% } %>
+        <% if (theme.weibo){ %>
+          <a id="nav-weibo-link" class="nav-icon" href="http://www.weibo.com/<%- theme.weibo %>" title="Weibo" target="_blank"></a>
+        <% } %>
         <!--a id="nav-search-btn" class="nav-icon" title="Search"></a-->
       </nav>
       <div id="search-form-wrap">

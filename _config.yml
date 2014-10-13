@@ -1,14 +1,14 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
-  Portfolio: /portfolio
+#  Archives: /archives
+#  Portfolio: /portfolio
   About: /about
-rss: /atom.xml
+#rss: /atom.xml
 
 # Content
 excerpt_link: Read More
-fancybox: false
+fancybox: true
 
 # Sidebar
 sidebar: right
@@ -36,6 +36,7 @@ twitter: liugen7
 google_plus:
 fb_admins: 
 fb_app_id:
+weibo: liugen0
 
 # Duoshuo
 duoshuo_shortname: 
